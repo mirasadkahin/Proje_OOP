@@ -1,4 +1,5 @@
 ﻿using Proje_OOP.Entity;
+using System.Diagnostics;
 
 namespace Proje_OOP.Ornekler
 {
@@ -8,9 +9,17 @@ namespace Proje_OOP.Ornekler
     //SınıfAdı nesneadı=new SınıfAdı();
     public class Class
     {
-     void Topla()
+     public void Topla()
         {
-            
+            int sayi1 = 10;
+            int sayi2 = 20;
+            int sonuc = sayi1 + sayi2;
+        }
+       public void Carp()
+        {
+            int s1 = 10;
+            int s2 = 20;
+            int sonuc = s1*s2;
         }
     }
 }
